@@ -536,8 +536,40 @@ img.blur-shape {
     align-items: center;
     background: #fff;
 }
-@media (min-height: 320px) and (max-width: 1024px) {
- body{
-  background: red;
- }
+@media only screen and (max-width: 1024px) and (min-width: 320px) 
+{
+  #transactions {
+    padding: 4rem 0 4rem 0;
+    display: none;
+}
+section.helfio-main-pro p {
+    color: #000;
+    font-size: 2em;
+    font-weight: bold;
+}
+.md {
+    margin-bottom: 4%;
+}
+.main-box-helfio {
+    margin-bottom: 5%;
+}
+button.btn.btn-outline-success {
+    font-size: 12px;
+        margin-bottom: 6%;
+}
+form.d-flex.new-btn {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+}
+ul.navbar-nav.me-auto.mb-5.mb-lg-0 {
+    margin-bottom: 0px !important;
+}
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    background: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
 }
