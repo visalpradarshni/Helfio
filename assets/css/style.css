@@ -525,6 +525,7 @@ img.blur-shape {
 }
 
 .main-box-helfio {
+  border-radius: 14px;
   padding: 22px;
   /* background: #fff; */
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
