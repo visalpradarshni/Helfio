@@ -573,4 +573,15 @@ ul.navbar-nav.me-auto.mb-5.mb-lg-0 {
     background: #fff;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
+.accordion {
+    margin: 1rem 0;
+    padding: 0;
+    list-style: none;
+    WIDTH: 100%;
+    margin: auto;
+}
+.accordion-item:first-of-type {
+    border-top-left-radius: 0.25rem !important;
+    border-top-right-radius: 0.25rem !important;
+}
 }
